@@ -1,1 +1,197 @@
-.wrapper {}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+:root {
+  /* ## Colors */
+
+  /* ### Primary */
+
+  --VeryDarkBlue: hsl(243, 87%, 12%);
+  --DesaturatedBlue: hsl(238, 22%, 44%);
+
+  /* ### Accent */
+
+  --BrightBlue: hsl(224, 93%, 58%);
+  --ModerateCyan: hsl(170, 45%, 43%);
+
+  /* ### Neutral */
+
+  --LightGrayishBlue: hsl(240, 75%, 98%);
+  --LightGray: hsl(0, 0%, 75%);
+}
+
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  border: 2px solid magenta;
+  font-family: 'Raleway', sans-serif;
+}
+
+header img {
+  width: 100px;
+  height: auto;
+}
+
+.wrapper {
+  border: 1px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+/* GET STARTED SECTION */
+#get-started {
+  border: 2px solid blue;
+}
+
+#get-started .image {
+  border: 1px solid red;
+}
+
+#get-started .image img {
+  width: 100%;
+}
+
+#get-started .text {
+  border: 1px solid gold;
+}
+
+#get-started .text h2 {
+  border: 1px solid green;
+}
+
+#get-started .text p {
+  border: 1px solid gray;
+}
+
+#get-started .text form {
+  border: 1px solid lawngreen;
+}
+
+/* END GET STARTED SECTION */
+
+/* FYLO WORKS SECTION */
+
+#fylo-works {
+  border: 2px solid blueviolet;
+}
+
+#fylo-works .image {
+  border: 1px solid aqua;
+}
+
+#fylo-works .image img {
+  width: 100%;
+}
+
+#fylo-works .text {
+  border: 1px solid darkcyan;
+}
+
+#fylo-works .text h3 {
+  border: 1px solid firebrick;
+}
+
+#fylo-works .text>p {
+  border: 1px solid fuchsia;
+}
+
+#fylo-works .text .see-how span {
+  border: 1px solid darkmagenta;
+}
+
+#fylo-works .text .card {
+  border: 2px solid saddlebrown;
+}
+
+#fylo-works .text .card p {
+  border: 1px solid forestgreen;
+}
+
+#fylo-works .text .card .author {
+  border: 1px solid salmon;
+}
+
+/* END FYLO WORKS SECTION */
+
+/* GET TODAY SECTION */
+
+#get-today {
+  border: 2px solid seagreen;
+}
+
+#get-today .text {
+  border: 1px solid royalblue;
+}
+
+#get-today .text h3 {
+  border: 1px solid greenyellow;
+}
+
+#get-today .text p {
+  border: 1px solid khaki;
+}
+
+#get-today form {
+  border: 2px solid darkolivegreen;
+}
+
+/* END GET TODAY SECTION */
+
+/* FOOTER START */
+
+footer {
+  border: 2px solid goldenrod;
+}
+
+footer .grid-container {
+  border: 1px solid hotpink;
+  display: grid;
+  grid-template-columns: ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "."".""."".";
+}
+
+footer .grid-container .contact-data {
+  border: 1px solid forestgreen;
+}
+
+footer .grid-container .fmenu1 {
+  border: 1px solid navy;
+}
+
+footer .grid-container .fmenu2 {
+  border: 1px solid chocolate;
+}
+
+footer .grid-container .social-icons {
+  border: 1px solid violet;
+}
+
+footer .grid-container .social-icons .social-icon {
+  border: 1px solid #000;
+}
+
+/* FOOTER END */
