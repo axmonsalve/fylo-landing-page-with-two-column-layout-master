@@ -359,7 +359,7 @@ footer .grid-container .contact-data div>p {
 
 footer .grid-container .contact-data>div {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 footer .grid-container .fmenu1 ul li,
