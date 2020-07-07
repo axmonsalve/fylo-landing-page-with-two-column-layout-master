@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
 :root {
   /* ## Colors */
@@ -21,7 +21,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 ul {
@@ -37,7 +37,7 @@ a {
 h1,
 h2,
 h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 input[type="submit"]:hover {
@@ -47,7 +47,7 @@ input[type="submit"]:hover {
 /* HEADER  */
 header {
   margin-top: 1rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 header .wrapper img {
@@ -55,7 +55,7 @@ header .wrapper img {
   height: auto;
 }
 
-header>.wrapper {
+header > .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,7 +119,7 @@ header .menu ul li a:hover {
 }
 
 #get-started .text h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.75rem;
   line-height: 2.5rem;
 }
@@ -143,7 +143,7 @@ header .menu ul li a:hover {
   width: 100%;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: .75rem;
+  padding: 0.75rem;
   border-radius: 3px;
   border: 1px solid var(--DesaturatedBlue);
 }
@@ -162,21 +162,19 @@ header .menu ul li a:hover {
   border: none;
   color: white;
   width: 100%;
-  padding: .7rem;
-  margin-top: .9rem;
+  padding: 0.7rem;
+  margin-top: 0.9rem;
   border-radius: 3px;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
-
-
 
 /* END GET STARTED SECTION */
 
 /* FYLO WORKS SECTION */
 
 #fylo-works {
-  background: #F8F8FE;
+  background: #f8f8fe;
 }
 
 #fylo-works .wrapper .section-flex {
@@ -192,14 +190,13 @@ header .menu ul li a:hover {
   width: 100%;
 }
 
-
 #fylo-works .text h3 {
   text-align: center;
   margin-top: 4rem;
   color: var(--VeryDarkBlue);
 }
 
-#fylo-works .text>p {
+#fylo-works .text > p {
   text-align: left;
   margin-top: 2rem;
   line-height: 1.65rem;
@@ -222,19 +219,18 @@ header .menu ul li a:hover {
 
 #fylo-works .text .see-how span {
   color: var(--ModerateCyan);
-  padding-bottom: .25rem;
-  font-size: .85rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.85rem;
 }
 
 #fylo-works .text .card {
   padding: 1.5rem;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 600;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.25);
   margin-bottom: 7rem;
-
 }
 
 #fylo-works .text .card p {
@@ -256,14 +252,13 @@ header .menu ul li a:hover {
 }
 
 #fylo-works .text .card .author-text {
-  margin-left: .75rem;
-
+  margin-left: 0.75rem;
 }
 
 #fylo-works .text .card .author-text p {
   color: var(--VeryDarkBlue);
   line-height: 1rem;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 /* END FYLO WORKS SECTION */
@@ -302,7 +297,7 @@ header .menu ul li a:hover {
 #get-today form input {
   border-radius: 3px;
   border: none;
-  padding: .75rem;
+  padding: 0.75rem;
 }
 
 #get-today form input[type="email"]:focus {
@@ -332,14 +327,14 @@ footer {
 footer .grid-container {
   display: grid;
   grid-template-rows: auto auto repeat(2, 1fr);
-  grid-template-areas: ".""."".""."".";
+  grid-template-areas: "." "." "." "." ".";
 }
 
 footer .grid-container a {
   color: #fff;
 }
 
-footer .wrapper>img {
+footer .wrapper > img {
   margin-top: 2rem;
 }
 
@@ -347,17 +342,17 @@ footer .grid-container .contact-data {
   margin: 3rem 0;
 }
 
-footer .grid-container .contact-data div>img {
+footer .grid-container .contact-data div > img {
   width: 20px;
   height: 18px;
   margin-right: 20px;
 }
 
-footer .grid-container .contact-data div>p {
-  margin-bottom: .5rem;
+footer .grid-container .contact-data div > p {
+  margin-bottom: 0.5rem;
 }
 
-footer .grid-container .contact-data>div {
+footer .grid-container .contact-data > div {
   display: flex;
   align-items: baseline;
 }
@@ -366,7 +361,6 @@ footer .grid-container .fmenu1 ul li,
 footer .grid-container .fmenu2 ul li {
   margin-bottom: 1rem;
 }
-
 
 footer .grid-container .fmenu2 {
   margin-top: 2rem;
@@ -381,24 +375,23 @@ footer .grid-container .social-icons {
 footer .grid-container .social-icons .social-icon {
   border: 1px solid #fff;
   border-radius: 100%;
-  padding: .1rem;
+  padding: 0.1rem;
   width: 25px;
   height: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: .25rem;
+  margin: 0.25rem;
 }
 
 footer .grid-container .social-icons .social-icon i {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 /* FOOTER END */
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 768px) {
-
   header {
     margin-top: 2.25rem;
   }
@@ -409,6 +402,10 @@ footer .grid-container .social-icons .social-icon i {
 
   header .menu ul li {
     margin-left: 1.5rem;
+  }
+
+  #get-started {
+    background-image: url(./images/bg-curve-desktop.svg);
   }
 
   #get-started .wrapper .section-flex {
@@ -461,13 +458,13 @@ footer .grid-container .social-icons .social-icon i {
     margin-bottom: 2rem;
   }
 
-  #fylo-works .text>p {
+  #fylo-works .text > p {
     margin-top: 0;
     color: var(--VeryDarkBlue);
     width: 75%;
     line-height: 1.25rem;
     font-weight: 600;
-    font-size: .95rem;
+    font-size: 0.95rem;
   }
 
   #fylo-works .text .see-how {
@@ -483,8 +480,8 @@ footer .grid-container .social-icons .social-icon i {
   }
 
   #fylo-works .text .card p {
-    font-size: .8rem;
-    line-height: 1.25rem
+    font-size: 0.8rem;
+    line-height: 1.25rem;
   }
 
   #fylo-works .text .card .author {
@@ -499,10 +496,8 @@ footer .grid-container .social-icons .social-icon i {
     width: 90%;
   }
 
-
   #get-today .wrapper .section-flex {
     display: flex;
-
   }
 
   #get-today .text {
@@ -538,7 +533,7 @@ footer .grid-container .social-icons .social-icon i {
     padding-bottom: 3rem;
   }
 
-  footer .wrapper>img {
+  footer .wrapper > img {
     margin-top: 3rem;
   }
 
